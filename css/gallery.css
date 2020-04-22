@@ -1,0 +1,135 @@
+body
+    {
+    margin:0px;
+    padding:0px;
+    
+    }
+#heading
+    {
+    background-color: #FAF5F5;
+    height:35px;
+    width:100%;
+    margin-top:-20px;
+    margin:auto;
+ 
+    }  
+#hero
+    {
+    background-color:#3877FF;
+    margin-top:100px;
+    margin:auto;
+    width:100%;
+    height:200px;
+    color: white;
+    text-align: center;
+    }
+
+#content
+	{
+	display: flex;
+	flex-wrap: wrap;
+	margin:20px;
+	
+	}
+#images
+	{
+	position: relative;
+	flex-grow: 1;
+	margin:2px;
+	border-radius: 5%;
+	}
+
+img
+	{
+	height:200px;
+	object-fit:cover;
+	min-width:100%;
+	max-height:100%;
+}
+#blank
+	{
+	width:100%;
+	margin:10px;
+}
+
+
+/*：picture introduction function is referenced by this website https://blog.csdn.net/weixin_37719279/article/details/79105170*/
+.mask{
+            position: relative;
+            overflow: hidden;
+        }
+.mask:after{
+            content: attr(data-title);
+            position: absolute;
+            width:100%;
+            top:100%;
+            left:0;
+            padding: 0.7em 0;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(52,47,41,.5);
+            transition:all .3s ease-in-out;
+            opacity: 0;
+        }
+.mask:hover:after
+		{
+            opacity: 1;
+			transform:translate(0,-100%);
+	          
+		}
+
+/*end*/
+#footer
+	{	
+	height:50px;
+	background-color:#3877FF; 
+	text-align: center;
+	color: aliceblue;
+	padding:10px;
+		
+	}
+
+button
+    {
+    background-color:transparent;
+    border:none;
+    cursor: pointer;
+    float:left;
+    margin-top:5px;
+    }
+    
+.dropbtn
+    {
+    width:30px;
+    height:30px;
+    }
+    
+.dropdown_content 
+    {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+.dropdown_content a:hover 
+    {
+    background-color: #666666;
+    }
+    
+.dropdown_content a 
+    {
+    color: black;
+    padding: 15px 200px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    font-size:15px;
+    }
+    
+.dropdown:hover .dropdown_content 
+    {
+    display: block;
+    margin-top:35px;
+    }

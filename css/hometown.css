@@ -1,0 +1,226 @@
+body
+    {
+    	margin:0px;
+    	padding:0px; 
+    }
+#heading
+    {
+    	background-color: #FAF5F5;
+    	height:60px;
+    	width:100%;
+    	margin-top:-20px;
+		margin:auto;
+		
+ 
+    }  
+#hero
+    {
+		width:100%;
+        height:60%;
+		background-image: url("../images/shanghai.jpg");
+		background-size: cover;
+		margin-top:-20px;
+		filter: opacity(100%);
+		color: white;
+    	text-align: center;
+		
+		
+    }
+
+.icon
+	{	
+		margin:auto;
+		width:100%;
+		text-align: center;
+		display: inline-block;
+		margin-left:40px;
+	}
+#general-icon
+	{
+		padding:50px;
+		float:left;
+	}
+#icon
+	{
+		width:70px;
+		margin:10px;
+		filter: opacity(30%);
+		transition-duration: 0.5s;
+	}
+#icon:hover
+	{
+		filter: opacity(100%)
+	}
+
+video
+	{
+	margin:20px;
+	margin-left:100px;
+	}
+
+#food-pic
+    {
+        width:60%;
+        margin:auto;
+		display: inline-block;
+		overflow: hidden;
+	}
+#food-hongshaorou
+    {
+		width: 49%;
+    	height:70%;
+		float:left;
+		margin:2px;
+		transition: all 1s;
+	
+    }
+#food-doufu
+    {
+    	width: 49%;
+    	height:35%;
+		float:left;
+		margin:2px;
+		transition: all 1s;
+    }
+
+
+
+#food-xiaolongbao
+    {
+    	width: 49%;
+    	height:34%;
+		float:left;
+		margin:2px;
+		margin-top:5px;
+		margin-right:0px;
+		transition: all 1s;
+    }
+
+#food-content
+    {
+        width:32%;
+		height:60%;
+        background: #3877FF;
+        margin:auto;
+        font-size:20;
+        text-align: justify;
+        padding:50px;
+		float:right;
+		color:white;
+		padding-top:10px;
+        
+    }
+img:hover
+	{
+		transform: scale(1.4);
+	}	
+
+#place
+	{
+	margin-top:20px;	
+	}
+#place-pic
+    {
+        width:60%;
+        margin:auto;
+		display: inline-block;
+		overflow: hidden;
+	}
+#place-content
+    {
+        width:32%;
+		height:85%;
+        background: #3877FF;
+        margin:auto;
+        font-size:20;
+        text-align: justify;
+        padding:50px;
+		float:LEFT;
+		color:white;
+		padding-top:10px;
+	}
+#place-pudong
+    {
+		width: 99%;
+    	height:55%;
+		float:right;
+		margin:2px;
+		transition: all 1s;
+	
+    }
+#place-nanjinglu
+    {
+    	width: 50%;
+    	height:40%;
+		float:right;
+		margin:2px;
+		transition: all 1s;
+    }
+
+
+
+#place-zhujiajiao
+    {
+    	width: 48.5%;
+    	height:40%;
+		float:right;
+		margin:2px;
+		margin-top:2px;
+		margin-right:0px;
+		transition: all 1s;
+    }
+#footer
+	{	
+	height:50px;
+	background-color:#3877FF; 
+	text-align: center;
+	color: aliceblue;
+	padding:10px;
+	margin-top:10px
+	}
+button
+    {
+    background-color:transparent;
+    border:none;
+    cursor: pointer;
+    float:left;
+    margin-top:5px;
+    }
+    
+.dropbtn
+    {
+    width:30px;
+    height:30px;
+    }
+    
+.dropdown_content 
+    {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1000;
+    }
+    
+.dropdown_content a:hover 
+    {
+    background-color: #666666;
+	
+    }
+    
+.dropdown_content a 
+    {
+    color: black;
+    padding: 15px 200px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    font-size:15px;
+    }
+    
+.dropdown:hover .dropdown_content 
+    {
+    display: block;
+    margin-top:35px;
+    }

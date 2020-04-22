@@ -1,0 +1,132 @@
+body
+    {
+    margin:0px;
+    padding:0px;
+    
+    }
+#heading
+    {
+    background-color: #FAF5F5;
+    height:40px;
+    width:100%;
+    margin-top:-20px;
+    margin:auto;
+ 
+    }  
+#hero
+    {
+    background-color:#3877FF;
+    margin-top:100px;
+    margin:auto;
+    width:100%;
+    height:200px;
+    color:white;
+    text-align: center;
+    }
+
+#general
+	{
+	margin:auto;
+	margin-top:-20px;
+	
+}
+#general-selfphoto
+	{
+	 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 margin:30px;
+	 width:30%;
+	 float:left;
+	margin-top:10px;
+	}
+#general-content
+	{
+	font-size:20px;
+	text-align: justify;
+	margin:10px;
+	
+	}
+#experience
+	{
+	text-align: center;
+	clear:both;
+	margin:auto;
+	height:880px;
+	margin-top:0px;
+	}
+#experience-content1
+	{
+	margin:20px;
+	width:40%;
+	box-shadow: 20px 8px 16px 0px rgba(0,0,0,0.5);
+	padding:10px;
+	float:left;
+	margin-right:500px;
+	margin-left:150px;
+	background-color: white;
+	}
+#experience-content2
+	{
+	margin:20px;
+	width:40%;
+	box-shadow: -20px 8px 16px 0px rgba(1,0,0,0.5);
+	padding:10px;
+	float:right;
+	margin-left:500px;
+	margin-right:150px;
+	background-color: white;
+	}
+		
+#footer
+	{	
+	height:50px;
+	
+	text-align: center;
+	color:white;
+	padding:10px;
+	background-color:#3877FF;	
+	}
+
+button
+    {
+    background-color:transparent;
+    border:none;
+    cursor: pointer;
+    float:left;
+    margin-top:5px;
+    }
+    
+.dropbtn
+    {
+    width:30px;
+    height:30px;
+    }
+    
+.dropdown_content 
+    {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+.dropdown_content a:hover 
+    {
+    background-color: #666666;
+    }
+    
+.dropdown_content a 
+    {
+    color: black;
+    padding: 15px 200px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    font-size:15px;
+    }
+    
+.dropdown:hover .dropdown_content 
+    {
+    display: block;
+    margin-top:35px;
+    }
